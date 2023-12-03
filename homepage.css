@@ -1,0 +1,60 @@
+
+body{
+    background-image: url("cooking-ingredients-on-a-blue-wooden-background-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+.main1{
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 5, 5);
+    font-size: 400%;
+   
+}
+.main{
+    font-style:Oswald ;
+    color: rgb(135, 214, 39);
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
+}
+.hello{
+   color: deeppink;
+   text-align: center;
+   font-style: inherit; 
+  
+}
+.h3{
+    color: azure;
+   text-align: center; 
+    
+}
+.col{
+    flex-basis: 100%;
+}
+.btn1 {
+    background-color: rgb(146, 154, 145);
+    border: none;
+    color: rgb(17, 8, 21);
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+}
+.btn1:hover{
+
+   background-color: aqua;
+} 
+img{
+    position: absolute;
+    top: 90px;
+    left: 10px; 
+    border-radius: 50%;
+    
+}

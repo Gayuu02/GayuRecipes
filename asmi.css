@@ -1,0 +1,50 @@
+.btn1 {
+    background-color: rgb(156, 97, 154);
+    border: none;
+    color: rgb(17, 8, 21);
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+}
+.btn1:hover{
+
+    background-color: rgb(168, 235, 91);
+ } 
+ .h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(25, 25, 154);
+    }
+ body{
+    background-color: rgb(133, 231, 143);
+ }
+ .hello{
+    position: absolute;
+    left: 200px;
+    top: 530px;
+  }
+  .hello1{
+    position: absolute;
+    right: 70px;
+ }
+  .h2-1{
+    font-size: 30px;
+ } 
+ .h2-2{
+    font-size: 30px;
+ }
+ .h3-1{
+    font-size: 150%;
+ } 
+ .h3-2{
+    font-size: 25px;
+ }
+ .p1{
+    font-size: 150%;
+ }

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&family=Roboto+Condensed:ital,wght@1,500&family=Signika:wght@500&display=swap');
+
+
+    
+
+.btn1 {
+    background-color: rgb(208, 25, 138);
+    border: none;
+    color: rgb(16, 17, 19);
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+}
+.btn1:hover{
+
+    background-color: rgb(78, 100, 221);
+ } 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+
+}
+body{
+    background-image: url("black-wavy-shapes-background_79603-1363.avif");
+    background-size: 100% 100%;
+    
+}
+
+.Contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column; 
+        }
+.h2-1{
+    text-align: center;
+    margin-top: 40px;
+    font-size:50px;
+    font-family: 'Oswald', sans-serif; 
+    color: rgb(0, 255, 238) ;
+}
+.span1{
+    color: red;
+    font-size: 50px;
+}
+.p1{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 30px;
+}
+.Container{
+    width: 100%;
+    text-align: center;
+    justify-content: center;display: flex;
+    
+}
+.Container .ContactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.Container .ContactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.Container .ContactInfo .box .icon{
+    min-width: 60PX;
+    height: 60PX;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.Container .ContactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.Container .ContactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.ContactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    
+}
+.ContactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.ContactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.ContactForm .inputBox input,
+.ContactForm .inputBox textarea 
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    flex-direction: column;
+    
+}
+.ContactForm .inputBox textarea {
+    left: 20px;
+}
+.ContactForm .inputBox span{
+    position: absolute;
+    left: 10px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.ContactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.text{
+    text-align: left;
+}
+
+img{
+    position: absolute;
+    top: 90px;
+    left: 10px; 
+    border-radius: 60%;
+}

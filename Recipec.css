@@ -1,0 +1,152 @@
+.btn1 {
+    background-color: rgb(193, 119, 239);
+    border: none;
+    color: rgb(17, 8, 21);
+    padding: 15px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+}
+.btn1:hover{
+
+    background-color: rgb(13, 210, 13);
+ } 
+body{
+   background-color: darkgray;
+}
+    
+ 
+ .Rp{
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    
+ }
+ .btnM{
+    position: absolute;
+    top: 380px;
+    left: 500px;
+    
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    border: none;
+    background-color: cadetblue;
+    color: rgb(17, 8, 21);
+    padding: 5px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+     cursor: pointer;
+ }
+ .btnM:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+ }
+ .welithalapa{
+    position: absolute;
+    top: 470px;
+    left: 500px;
+ }
+ .btnW{
+    position: absolute;
+    top: 680px;
+    left: 500px;
+    
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    border: none;
+    background-color: cadetblue;
+    color: rgb(17, 8, 21);
+    padding: 5px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+     cursor: pointer;
+ }
+ .btnW:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+ }
+ .kokis{
+    position: absolute;
+    top: 780px;
+    left: 500px;
+ }
+ .btnK{
+    position: absolute;
+    top: 1010px;
+    left: 500px;
+    
+   box-shadow: 0 0 5px cyan,
+   0 0 25px cyan;
+    border: none;
+    background-color: cadetblue;
+    color: rgb(17, 8, 21);
+    padding: 5px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+     cursor: pointer;
+ }
+.btnK:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+.asmi{
+    position: absolute;
+    top: 1100px;
+    left: 500px;
+}
+.btnA{
+    position: absolute;
+    top: 1310px;
+    left: 500px;
+    box-shadow: 0 0 5px cyan,
+   0 0 25px cyan;
+    border: none;
+    background-color: cadetblue;
+    color: rgb(17, 8, 21);
+    padding: 5px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition-duration: 0.4s ;
+     font-size: 20px;
+     cursor: pointer;
+ }
+.btnA:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+h1{
+   color: blue;
+   font-size: 300%;
+   font-style: italic;
+}
+img {
+   border: 1px solid #b1aeae;
+   border-radius: 4px;
+   padding: 10px;
+   width: 390px;
+ }
+ 
+ img:hover {
+   box-shadow: 0 0 2px 1px rgba(28, 162, 225, 0.5);
+ }
